@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+
+.menu {
+    background-image: url(/broadway/the-flatiron-building.png);
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+li {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: white;
+    margin: 15px;
+    padding: 0;
+    /* list-style은 ul, ol 의 bullet을 지정할 수 있는 것*/
+    list-style: none;
+}
+
+/* W3school에서 참고 */
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h4{
+    font-family: Helvetica;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* thinbox */
+h3{
+    font-family: Helvetica;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.thinbox{
+    background-image: url(/broadway/the-flatiron-building.png);
+}
+
+p{
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 11px;
+    color: white;
+    background-color: dimgray;
+}
